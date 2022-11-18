@@ -4,44 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi practica Responsive #2  WebSite Landig Page</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Responsive Starbucks Website Landing page</title>
     <script src="./js/main.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <section>
         <div class="circle"></div>
         <header>
-            <a href="#" class="logo"> <img src="./img/logo.png"></a>
-            <div class="toggle" onclick = "toggleMenu();"> </div>
-            <ul class = "navigation">
-                <li> <a href="#">Home</a></li>
-                <li> <a href="#">Menu</a></li>
-                <li> <a href="#">What's New</a></li>
-                <li> <a href="#">Contact</a></li>
+            <a href="#"><img src="./img/logo.png" class="logo"></a>
+            <div class="toggle"></div>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What is new</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </header>
         <div class="content">
             <div class="textBox">
-                <h2>It' not just Coffe <br> It's<span>Starbucks</span></h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque animi ad provident rerum distinctio sint iste ratione! Unde soluta doloribus sapiente optio eligendi ex, illo placeat labore, excepturi corporis quos!</p>
-                <a href="#">Learn More</a>
+                <h2>It's not just Coffee <br>It's <span>Starbucks</span></h2>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Dolorum quisquam accusamus vel exercitationem impedit ratione
+                    quos perferendis dolores ipsam, asperiores odio repellendus
+                    commodi distinctio hic a earum temporibus possimus nemo!</p>
+                <a href="#">learn more </a>
             </div>
-                <div class="imgBox">
-                    <img src="./img/img1.png" class="starbucks">
-                </div>
+            <div class="imgBox">
+                <img src="./img/img1.png" class="Starbucks">
+            </div>
         </div>
         <ul class="thumb">
-            <li><img src="./img/thumb1.png"onclick="imgSlider('./img/img1.png');changeCircleColor('#017143')"></li>
-            <li><img src="./img/thumb2.png"onclick="imgSlider('./img/img2.png');changeCircleColor('#eb7495')"></li>
-            <li><img src="./img/thumb3.png"onclick="imgSlider('./img/img3.png');changeCircleColor('#d752b1')"></li>            
+            <li> <img src="./img/thumb1.png" data-img="./img/img1.png" data-color="#017143" > </li>
+            <li> <img src="./img/thumb2.png" data-img="./img/img2.png" data-color="#eb7495" > </li>
+            <li> <img src="./img/thumb3.png" data-img="./img/img3.png" data-color="#d752b1" > </li>
         </ul>
         <ul class="sci">
-            <li><a href="#"><img src="./img/facebook.png" alt=""></a></li>
-            <li><a href="#"><img src="./img/twitter.png" alt=""></a></li>
-            <li><a href="#"><img src="./img/instagram.png" alt=""></a></li>
+            <li><a href="#"><img src="./img/facebook.png"></a></li>
+            <li><a href="#"><img src="./img/twitter.png"></a></li>
+            <li><a href="#"><img src="./img/instagram.png"></a></li>
         </ul>
     </section>
-    
 </body>
 </html>
